@@ -1,0 +1,25 @@
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h3 {
+    background: var(--text-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .error-btn {
+    padding: 20px;
+    border-radius: 20px;
+    color: var(--gold);
+    border: 1px solid var(--gold);
+    cursor: pointer;
+
+    &:hover {
+      color: var(--teal);
+      border: 1px solid var(--teal);
+    }
+  }
+}

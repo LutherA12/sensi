@@ -1,0 +1,153 @@
+.main-hero-container {
+  width: 95vw;
+  margin: auto;
+  min-height: 760px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  margin-top: 90px;
+
+  h1 {
+    background: var(--text-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 0.88;
+    margin-bottom: 30px;
+
+    span {
+      display: block;
+      font-style: italic;
+      font-weight: 400;
+    }
+  }
+
+  .hero-description {
+    max-width: 500px;
+    color: var(--navy);
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.9;
+    margin-bottom: 2.2rem;
+    padding-left: 16px;
+  }
+
+  .hero-buttons {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+}
+
+.btn--gold {
+  color: var(--navy);
+}
+
+.btn--outline {
+  border: 1px solid var(--gold);
+  color: var(--gold);
+
+  &:hover {
+    border: 1px solid var(--navy);
+    color: var(--navy);
+  }
+}
+
+@media (max-width: 1352px) {
+  .main-hero-container {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main-hero-container {
+    margin-top: 0px;
+
+    h1 {
+      font-size: 60px;
+    }
+
+    .hero-description {
+      font-size: 15px;
+      padding-left: 7px;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .main-hero-container {
+    margin-top: -70px;
+
+    h1 {
+      font-size: 50px;
+    }
+
+    .hero-description {
+      font-size: 13px;
+      padding-left: 7px;
+    }
+  }
+}
+
+@media (max-width: 664px) {
+  .main-hero-container {
+    margin-top: -140px;
+
+    h1 {
+      font-size: 40px;
+    }
+
+    .hero-description {
+      font-size: 11px;
+      padding-left: 7px;
+    }
+  }
+}
+
+@media (max-width: 513px) {
+  .main-hero-container {
+    margin-top: -180px;
+
+    h1 {
+      font-size: 35px;
+    }
+
+    .hero-description {
+      font-size: 11px;
+      padding-left: 7px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .main-hero-container {
+    margin-top: -210px;
+
+    h1 {
+      font-size: 30px;
+    }
+
+    .hero-description {
+      font-size: 10px;
+      padding-left: 7px;
+    }
+  }
+}
+
+@media (max-width: 335px) {
+  .main-hero-container {
+    margin-top: -235px;
+
+    h1 {
+      font-size: 26px;
+    }
+
+    .hero-description {
+      font-size: 9px;
+      padding-left: 7px;
+    }
+  }
+}
