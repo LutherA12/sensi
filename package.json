@@ -10,8 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "lucide-react": "^1.47.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
+    "react-icons": "^5.7.0",
     "react-router-dom": "^7.18.3",
     "sass": "^1.104.0"
   },
@@ -28,6 +30,8 @@
   },
   "allowScripts": {
     "sass@1.104.0": true,
-    "react-router-dom@7.18.3": true
+    "react-router-dom@7.18.3": true,
+    "react-icons@5.7.0": true,
+    "lucide-react@1.47.0": true
   }
 }

@@ -1,18 +1,16 @@
 import "./hero.styles.scss";
+import { LB } from "../../utils/data";
 
 export default function Hero() {
   return (
     <div className="main-hero-container" id="home">
       <div className="container hero__content">
         <div className="hero__text">
-          <h1>
-            Beauty begins
-            <span>with relaxation.</span>
-          </h1>
+          <h1>Beauty & wellness {LB} elevated.</h1>
 
           <p className="hero-description">
-            Escape the everyday & discover a luxurious experience designed to
-            make you feel refreshed, confident, and beautiful.
+            A luxury salon experience specialising in healthy hair, scalp
+            wellness, restoratiove beauty & elevated self care.
           </p>
 
           <div className="hero-buttons">
@@ -29,15 +27,3 @@ export default function Hero() {
     </div>
   );
 }
-
-/**
- * 
- *           <div className="hero__circle">
-            <div className="hero__circle-inner">
-              <span>EST.</span>
-              <strong>2014</strong>
-            </div>
-          </div>
- * 
- * 
- */

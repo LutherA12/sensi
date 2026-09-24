@@ -17,22 +17,21 @@
     font-weight: 500;
     line-height: 0.88;
     margin-bottom: 30px;
-
-    span {
-      display: block;
-      font-style: italic;
-      font-weight: 400;
-    }
+    font-style: italic;
+    font-weight: 400;
   }
 
   .hero-description {
-    max-width: 500px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 100;
+    font-style: normal;
+    max-width: 550px;
     color: var(--navy);
-    font-size: 17px;
-    font-weight: 300;
-    line-height: 1.9;
-    margin-bottom: 2.2rem;
-    padding-left: 16px;
+    font-size: 23px;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    margin-bottom: 34px;
+    padding: 0 10px;
   }
 
   .hero-buttons {

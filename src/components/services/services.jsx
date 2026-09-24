@@ -11,8 +11,8 @@ export default function Services() {
             Indulge in <em>you.</em>
           </h2>
           <p className="description">
-            From head to toe, every treatment is created to help you look and
-            feel your absolute best.
+            Thank you for choosing <span className="brandname">Sensi</span>.
+            Self-Care isn't selfish, you deserve to look & feel good.
           </p>
         </div>
 
@@ -23,10 +23,10 @@ export default function Services() {
 
               <h3>{service.title}</h3>
 
-              <p>{service.text}</p>
+              <div className="service-list">{service.text}</div>
 
               <a href="#appointment">
-                Learn More <span>→</span>
+                book your appointment <span>→</span>
               </a>
             </div>
           ))}

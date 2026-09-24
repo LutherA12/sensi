@@ -32,6 +32,7 @@
       margin-top: 18px;
       color: var(--navy);
       line-height: 1.8;
+      font-size: 22px;
     }
   }
 
@@ -40,6 +41,12 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 19px;
   }
+}
+
+.brandname {
+  background: var(--text-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .service-card {
@@ -63,7 +70,7 @@
     align-items: center;
     justify-content: center;
     color: var(--gold);
-    font-size: 21px;
+    font-size: 40px !important;
     margin-bottom: 24px;
   }
 
